@@ -1,0 +1,5 @@
+steps:
+  - label: ":hammer: Example"
+    command: "src/run1.sh"
+    agents:
+      queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"

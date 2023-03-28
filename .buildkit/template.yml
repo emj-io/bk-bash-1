@@ -1,0 +1,5 @@
+name: "bk-bash-1 name"
+description: "BuildKit Bash 1"
+steps:
+  - command: "buildkite-agent pipeline upload"
+    label: ":pipeline:"
